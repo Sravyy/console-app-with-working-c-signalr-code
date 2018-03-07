@@ -1,0 +1,5 @@
+﻿<configuration>
+   <elmah>
+      <errorLog type="Stackify.ELMAH.StackifyErrorLog, Stackify.ELMAH" />
+   </elmah>
+</configuration>

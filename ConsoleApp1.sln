@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{2860E198-EDC8-4D38-BF8B-0B770142501D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crelate.Web", "..\..\..\..\..\Source\Feature-SMS\Crelate.Web\Crelate.Web.csproj", "{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crelate.Platform", "..\..\..\..\..\Source\Feature-SMS\Crelate.Platform\Crelate.Platform.csproj", "{69B83834-E199-407D-8E58-C837BC2A2CC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crelate.Shared", "..\..\..\..\..\Source\Feature-SMS\Crelate.Shared\Crelate.Shared.csproj", "{E846F9F5-A2B5-4474-8955-B4C35723DF51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		ChromeExtension|Any CPU = ChromeExtension|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2860E198-EDC8-4D38-BF8B-0B770142501D}.ChromeExtension|Any CPU.ActiveCfg = Release|Any CPU
+		{2860E198-EDC8-4D38-BF8B-0B770142501D}.ChromeExtension|Any CPU.Build.0 = Release|Any CPU
+		{2860E198-EDC8-4D38-BF8B-0B770142501D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2860E198-EDC8-4D38-BF8B-0B770142501D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2860E198-EDC8-4D38-BF8B-0B770142501D}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{2860E198-EDC8-4D38-BF8B-0B770142501D}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{2860E198-EDC8-4D38-BF8B-0B770142501D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2860E198-EDC8-4D38-BF8B-0B770142501D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}.ChromeExtension|Any CPU.ActiveCfg = ChromeExtension|Any CPU
+		{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}.ChromeExtension|Any CPU.Build.0 = ChromeExtension|Any CPU
+		{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}.Development|Any CPU.Build.0 = Development|Any CPU
+		{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7448B982-2D42-4FEC-A06B-7A8FD2DBBEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B83834-E199-407D-8E58-C837BC2A2CC1}.ChromeExtension|Any CPU.ActiveCfg = Development|Any CPU
+		{69B83834-E199-407D-8E58-C837BC2A2CC1}.ChromeExtension|Any CPU.Build.0 = Development|Any CPU
+		{69B83834-E199-407D-8E58-C837BC2A2CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B83834-E199-407D-8E58-C837BC2A2CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B83834-E199-407D-8E58-C837BC2A2CC1}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{69B83834-E199-407D-8E58-C837BC2A2CC1}.Development|Any CPU.Build.0 = Development|Any CPU
+		{69B83834-E199-407D-8E58-C837BC2A2CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B83834-E199-407D-8E58-C837BC2A2CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E846F9F5-A2B5-4474-8955-B4C35723DF51}.ChromeExtension|Any CPU.ActiveCfg = Release|Any CPU
+		{E846F9F5-A2B5-4474-8955-B4C35723DF51}.ChromeExtension|Any CPU.Build.0 = Release|Any CPU
+		{E846F9F5-A2B5-4474-8955-B4C35723DF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E846F9F5-A2B5-4474-8955-B4C35723DF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E846F9F5-A2B5-4474-8955-B4C35723DF51}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{E846F9F5-A2B5-4474-8955-B4C35723DF51}.Development|Any CPU.Build.0 = Development|Any CPU
+		{E846F9F5-A2B5-4474-8955-B4C35723DF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E846F9F5-A2B5-4474-8955-B4C35723DF51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9546539-28EC-4FF7-997D-E8DEAE20B5A5}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.crelatetest.com:8080/tfs/crelate
+		SccProjectUniqueName0 = ..\\..\\..\\..\\..\\Source\\Feature-SMS\\Crelate.Web\\Crelate.Web.csproj
+		SccProjectName0 = $/Trunk/Feature-SMS/Crelate.Web
+		SccAuxPath0 = https://tfs.crelatetest.com:8080/tfs/crelate
+		SccLocalPath0 = ..\\..\\..\\..\\..\\Source\\Feature-SMS\\Crelate.Web
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\..\\..\\..\\..\\Source\\Feature-SMS\\Crelate.Platform\\Crelate.Platform.csproj
+		SccProjectName1 = $/Trunk/Feature-SMS/Crelate.Platform
+		SccAuxPath1 = https://tfs.crelatetest.com:8080/tfs/crelate
+		SccLocalPath1 = ..\\..\\..\\..\\..\\Source\\Feature-SMS\\Crelate.Platform
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\..\\..\\..\\Source\\Feature-SMS\\Crelate.Shared\\Crelate.Shared.csproj
+		SccProjectName2 = $/Trunk/Feature-SMS/Crelate.Shared
+		SccAuxPath2 = https://tfs.crelatetest.com:8080/tfs/crelate
+		SccLocalPath2 = ..\\..\\..\\..\\..\\Source\\Feature-SMS\\Crelate.Shared
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
